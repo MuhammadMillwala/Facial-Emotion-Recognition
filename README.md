@@ -1,6 +1,6 @@
 # Facial Emotion Recognition
 
-This repository contains code for generating synthetic date data using the `dategenerator` file and then running facial emotion detection on that data using the `facial_emotion_detection.ipynb` file.
+This repository contains code for generating data using the `dategenerator` file and then running facial emotion detection on that data using the `facial_emotion_detection.ipynb` file.
 
 ## Getting Started
 
