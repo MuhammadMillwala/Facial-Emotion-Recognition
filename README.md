@@ -18,11 +18,12 @@ This is a Python script that uses the MTCNN library to detect faces in images. T
 
 ## Usage
 
-To run the facial_emotion_detection script, you will need to have Python 3 and the Keras library installed. You can install Keras using pip:
+To run the facial_emotion_detection script, you will need to have Python 3 and the following libraries installed. You can install them using pip:
 
 ```
 pip install keras
-pip install keras
+pip install tensorflow
+pip install opencv-python
 ```
 
 To run the dateGeneration script, you will need to have Python 3 and the MTCNN library installed. You can install MTCNN using pip:
@@ -31,16 +32,15 @@ To run the dateGeneration script, you will need to have Python 3 and the MTCNN l
 pip install mtcnn
 ```
 
-Note: Make sure that the input image is preprocessed to match the input shape of the VGG16 model.
-
-
 ### Running the Code
 
 1. Clone this repository to your local machine.
-2. Run the `dateGeneration` file to generate synthetic date data.
+2. Run the `dateGeneration` file to generate data.
 3. Open `facial_emotion_detection.ipynb` in Jupyter Notebook.
 4. Update the `DATASET_PATH` variable in the second cell of the notebook to point to the location of the generated data.
 5. Run the remaining cells in the notebook to perform facial emotion detection on the generated data.
+
+Note: Make sure that the input image is preprocessed to match the input shape of the DCNN model.
 
 ## Results:
 
